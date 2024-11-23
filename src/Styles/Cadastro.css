@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.ContainerCadastro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.BoxForm{
+    width: 360px;
+    padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.TituloLogo{
+    display: flex;
+    align-items: center;
+}
+.LogoImg{
+    width: 40px; 
+    height: 50px; 
+    margin-right: 5px;
+}
+.TituloLogin{
+    font-size: 20px;
+}
+.TituloForm{
+    margin-top: 0%;
+    margin-left: 5px;
+}
+.InputForm{
+    width: 330px;
+    height: 30px;
+    border: 2px solid  #00000052;
+    border-radius: 30px; 
+    margin: 5px;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.LinkSenha{
+    text-decoration: none;
+    color: #F18A26;
+}
+.PSenha{
+    margin-top: 0%;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: right;
+}
+.ButtonForm{
+    text-align: center;
+    align-self: center;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 15px;
+    height: 30px;
+    width: 330px;
+    background-image: linear-gradient(to right , #F1772F, #F06337);
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.LinkLoginCadastro{
+    display: flex;
+    text-decoration: none;
+    font-size: 10px;
+    justify-content: center;
+}
+.P01Login{
+    color: #000000;
+    margin-right: 3px;
+}
+.P02Login{
+    color: #F18A26;
+}
+.BoxFrase{
+    height: 400px;
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom , #F1772F, #F06337);
+    color: #FFFFFF;
+    font-size: 33px;
+    font-weight: bold;
+    padding: 20px;
+}
